@@ -1,0 +1,31 @@
+{
+	"name": "form-builder",
+	"version": "1.0.0",
+	"description": "A graphic user interface for building forms.",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no tests installed\" && exit 1",
+		"build": "webpack --config webpack.config.js --mode=production",
+		"build:dev": "webpack --config webpack.config.js --mode=development",
+		"watch": "webpack --config webpack.config.js --mode=development --watch",
+		"start": "node server.js"
+	},
+	"author": "Victoria Skeggs",
+	"license": "ISC",
+	"dependencies": {
+		"@emotion/react": "^11.7.1",
+		"@emotion/styled": "^11.6.0",
+		"@mui/material": "^5.4.0",
+		"@types/node": "^17.0.14",
+		"@types/react": "^17.0.38",
+		"@types/react-dom": "^17.0.11",
+		"awesome-typescript-loader": "^5.2.1",
+		"express": "^4.17.2",
+		"html-webpack-plugin": "^5.5.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"typescript": "^2.7 || ^3",
+		"webpack": "^5.68.0",
+		"webpack-cli": "^4.9.2"
+	}
+}
